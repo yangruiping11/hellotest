@@ -1,5 +1,5 @@
 import xlrd
-
+import json
 '''
 主要是学习python读取Excel
 '''
@@ -21,10 +21,11 @@ if __name__ == '__main__':
 
     print(format('表示数据的行列为 %d ,%d'%(nrows,ncols)))
 
-    for i in range(0,nrows):
+    for i in range(1,nrows):
         rowValues = table.row_values(i)
-        for data in rowValues:
-            print(data,)
-        print(" ")
+        url = rowValues[1]
+        print(url)
+        param = rowValues[3]
+        print(param)
 
-
+        url = table
