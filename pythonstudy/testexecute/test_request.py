@@ -23,3 +23,18 @@ def  test_post():
     values = resp.text
     print(values)
     assert resp.status_code == 201
+
+def  test_put():
+    url = 'https://reqres.in/api/users/2'
+    para ={
+            "name": "morpheus",
+            "job": "resident"
+        }
+    headers ={ "Content-type":"application/json" }
+    resp = requests.put(url,data=json.dumps(para),headers=headers)
+    print(resp.content)
+    print(resp.status_code)
+    values = {}
+    values = resp.text
+    print(values)
+    assert resp.status_code == 200
