@@ -11,14 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d00c07c-ae1a-4137-9ec9-5f4e0015b0e2" name="Default Changelist" comment="提交pythonstudy项目">
-      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testexecute/test_pymysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testexecute/test_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/ReadConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/ReadExelFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/Request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foundation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foundation/test_enumerate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testexecute/test_pymysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/testexecute/test_pymysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testexecute/test_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/testexecute/test_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/ReadConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/ReadConfig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../pythonworkspace/111/111/HermesPytest的副本" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="pythonstudy" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="pythonstudy" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,43 +69,19 @@
       <recent name="E:\software\git\test\pythonstudy\testexecute" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ReadExelFile">
-    <configuration name="ReadExelFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_new_request.test_run">
+    <configuration name="test_new_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testexecute" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/ReadExelFile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testexecute/test_new_request.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonstudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -123,25 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonstudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testexecute" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testexecute/test_request.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_request.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_new_request.test_run" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,17 +118,49 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testexecute/test_request.py&quot;" />
+      <option name="_new_target" value="&quot;test_new_request.test_run&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_request.test_get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testexecute" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_request.test_get&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_new_request.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testexecute" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testexecute/test_new_request.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ReadExelFile" />
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python tests.pytest in test_request.py" />
-        <item itemvalue="Python.test_request" />
+        <item itemvalue="Python tests.pytest for test_new_request.test_run" />
         <item itemvalue="Python.test_pymysql" />
+        <item itemvalue="Python tests.pytest in test_new_request.py" />
+        <item itemvalue="Python.test_new_request" />
+        <item itemvalue="Python.test_new_request" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +189,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622008930125</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交pythonstudy项目">
+      <created>1622106887593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622106887593</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交pythonstudy项目">
+      <created>1622194443959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622194443959</updated>
+    </task>
+    <task id="LOCAL-00005" summary="提交pythonstudy项目">
+      <created>1622194697587</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622194697587</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -216,59 +234,72 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交pythonstudy项目" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="656" y="99" key="#pytest_for_new_request.test_run" timestamp="1622446171427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="99" key="#pytest_for_new_request.test_run/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622446171427" />
+    <state x="656" y="99" key="#pytest_for_test_pymysql.test_ass" timestamp="1622443506355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="99" key="#pytest_for_test_pymysql.test_ass/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622443506355" />
+    <state x="703" y="372" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1622446248001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="703" y="372" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622446248001" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1622008916729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622008916729" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1622104873649">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1622443632400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622104873649" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622443632400" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621998029631" />
-    <state width="1001" height="171" key="GridCell.Tab.0.bottom" timestamp="1622106805320">
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1622449162664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1001" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622106805320" />
-    <state width="949" height="454" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622020980451" />
-    <state width="1001" height="171" key="GridCell.Tab.0.center" timestamp="1622106805320">
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449162664" />
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622197344196" />
+    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1622449162664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1001" height="171" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622106805320" />
-    <state width="949" height="454" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622020980450" />
-    <state width="1001" height="171" key="GridCell.Tab.0.left" timestamp="1622106805320">
+    <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449162664" />
+    <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622197344196" />
+    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1622449162664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1001" height="171" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622106805320" />
-    <state width="949" height="454" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622020980450" />
-    <state width="1001" height="171" key="GridCell.Tab.0.right" timestamp="1622106805320">
+    <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449162664" />
+    <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622197344195" />
+    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1622449162664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1001" height="171" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622106805320" />
-    <state width="949" height="454" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622020980451" />
-    <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1622092888801">
+    <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449162664" />
+    <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622197344196" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1622448960716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622092888801" />
-    <state width="949" height="348" key="GridCell.Tab.1.center" timestamp="1622092888801">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622448960716" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1622448960716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622092888801" />
-    <state width="949" height="348" key="GridCell.Tab.1.left" timestamp="1622092888801">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622448960716" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1622448960716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622092888801" />
-    <state width="949" height="348" key="GridCell.Tab.1.right" timestamp="1622092888801">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622448960716" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1622448960716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622092888801" />
-    <state x="672" y="417" key="RollbackChangesDialog" timestamp="1622009229424">
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622448960716" />
+    <state x="672" y="417" key="RollbackChangesDialog" timestamp="1622194496339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="417" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622009229424" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1622105803721">
+    <state x="672" y="417" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622106944800" />
+    <state x="672" y="417" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622194496339" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1622443588533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622105803721" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622443588533" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621997900504" />
     <state x="424" y="449" key="Vcs.Push.Dialog.v2" timestamp="1622009267365">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -278,9 +309,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="629" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622009205656" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1622093916351">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1622445891312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622093916351" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622445891312" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622188815088" />
   </component>
 </project>
