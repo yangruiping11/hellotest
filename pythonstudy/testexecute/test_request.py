@@ -6,10 +6,10 @@ def test_get():
     url = 'https://reqres.in/api/users'
     resp = requests.get(url)
     print(resp.headers)
-    assert  resp.status_code == 200
+    assert resp.status_code == 200
 
 
-def  test_post():
+def test_post():
     url = 'https://reqres.in/api/users'
     para ={
             "name": "morpheus",
@@ -24,13 +24,13 @@ def  test_post():
     print(values)
     assert resp.status_code == 201
 
-def  test_put():
+def test_put():
     url = 'https://reqres.in/api/users/2'
     para ={
-            "name": "morpheus",
-            "job": "resident"
+        "name": "morpheus",
+        "job": "zion resident"
         }
-    headers ={ "Content-type":"application/json" }
+    headers ={"Content-type":"application/json" }
     resp = requests.put(url,data=json.dumps(para),headers=headers)
     print(resp.content)
     print(resp.status_code)

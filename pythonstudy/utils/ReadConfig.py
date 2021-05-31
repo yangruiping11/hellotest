@@ -10,11 +10,11 @@ class ReadConfig:
     #获取文件汇总所有的section，一个配置文件中以[]包裹的信息。
     sections = cf.sections()
 
-    print(sections)
+    #print(sections)
 
     #读取该section下的所有键。
     options = cf.options('mysql-database')
-    print(options)
+    #print(options)
 
     items = cf.items('mysql-database')
 
