@@ -1,3 +1,6 @@
+'''
+测试基础知识
+'''
 list_c = [12,35,6,53,23,2]
 
 for i,j in enumerate(list_c):

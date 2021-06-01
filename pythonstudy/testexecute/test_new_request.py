@@ -8,7 +8,7 @@ import pytest
 
 data = get_data()
 print(data)
-
+"""
 def test_run():
     if data[1] == "get":
         if data[2] == "None":
@@ -36,7 +36,7 @@ def post(url,param):
 
 def put(url,param):
     requests.put(url=url,params=param)
-
+"""
 
 
 
