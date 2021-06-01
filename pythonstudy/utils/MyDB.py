@@ -27,9 +27,9 @@ class MyDB:
         except ConnectionError as ex:
             print(ex)
 
-    def execute_sql(self,sql,params):
+    def execute_sql(self,sql):
          self.connectDB()
-         self.cursor.execute(sql,params)
+         self.cursor.execute(sql)
          self.db.commit()
          return self.cursor
 

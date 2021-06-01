@@ -7,27 +7,23 @@ class ReadRequest:
 
     #封装post请求
     def post(self,url,data,headers):
-        global resp
-        if headers =='form-data':
-            resp = requests.post(url,data=data,headers=headers)
-        elif headers == "Content-type:application/json":
-            resp = requests.post(url,json=json.dumps(data),headers=headers)
+        resp = requests.post(url,json=json.dumps(data),headers=headers)
 
         return resp
 
     #封装put请求
     def put(self,url,data,headers):
-        global resp
-        if headers =='form-data':
+        '''
+        if 'form-data' in headers:
             resp = requests.put(url,data=data,headers=headers)
-        elif headers == "Content-type:application/json":
-            resp = requests.put(url,json=json.dumps(data),headers=headers)
+        elif "Content-type:application/json" in "Content-type:application/json":
+        '''
+        resp = requests.put(url,json=json.dumps(data),headers=headers)
 
         return resp
 
     #封装get请求
     def get(self,url,data,headers):
-        global resp
         if headers !=None:
             resp = requests.get(url,data,headers)
         else:

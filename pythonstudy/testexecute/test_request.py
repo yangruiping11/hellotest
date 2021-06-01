@@ -1,10 +1,13 @@
 import pytest
 import requests
 import json
+from utils.ReadRequest import *
+
+readRequest =ReadRequest()
 
 def test_get():
     url = 'https://reqres.in/api/users'
-    resp = requests.get(url)
+    resp = readRequest.run('get',url,data=None,headers=None)
     print(resp.headers)
     assert resp.status_code == 200
 
@@ -16,7 +19,7 @@ def test_post():
             "job": "leader"
         }
     headers ={ "Content-type":"application/json" }
-    resp = requests.post(url,data=json.dumps(para),headers=headers)
+    resp = readRequest.run('post',url,data=json.dumps(para),headers=json.dumps(headers))
     print(resp.content)
     print(resp.status_code)
     values = {}
