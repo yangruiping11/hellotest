@@ -11,12 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d00c07c-ae1a-4137-9ec9-5f4e0015b0e2" name="Default Changelist" comment="提交基本的封装">
-      <change afterPath="$PROJECT_DIR$/testexecute/test2_pymysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testexecute/test_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testexecute/TestFirstOneChar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testexecute/test_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/testexecute/test_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/MyDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/MyDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/ReadRequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/ReadRequest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../pythonworkspace/111/111/HermesPytest的副本" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
@@ -68,21 +64,26 @@
       <recent name="E:\software\git\test\pythonstudy\testexecute" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_request.test_post">
-    <configuration name="pytest for test_get.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.TestFirstOneChar">
+    <configuration name="TestFirstOneChar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testexecute" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get.test_01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testexecute/TestFirstOneChar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_get.test_02" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -101,22 +102,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_get.test_03" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pythonstudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testexecute" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get.test_03&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_request.test_post" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pythonstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +116,22 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_request.test_post&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in TestFirstOneChar.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testexecute" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testexecute/TestFirstOneChar.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_get.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TestFirstOneChar" />
+        <item itemvalue="Python tests.pytest in TestFirstOneChar.py" />
         <item itemvalue="Python tests.pytest for test_request.test_post" />
         <item itemvalue="Python tests.pytest for test_get.test_02" />
         <item itemvalue="Python tests.pytest in test_get.py" />
-        <item itemvalue="Python tests.pytest for test_get.test_03" />
-        <item itemvalue="Python tests.pytest for test_get.test_01" />
       </list>
     </recent_temporary>
   </component>
@@ -286,25 +287,25 @@
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622443632400" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621998029631" />
-    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1622543438028">
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1623146798628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622456369569" />
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623146798628" />
     <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622543438028" />
-    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1622543438028">
+    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1623146798628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622456369569" />
+    <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623146798628" />
     <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622543438028" />
-    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1622543438028">
+    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1623146798628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622456369569" />
+    <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623146798628" />
     <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622543438028" />
-    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1622543438028">
+    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1623146798628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622456369569" />
+    <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623146798628" />
     <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622543438028" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1622448960716">
       <screen x="0" y="0" width="1920" height="1040" />
